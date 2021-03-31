@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "552880389975",
+    "firebase_url": "https://deseasemap-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "deseasemap",
+    "storage_bucket": "deseasemap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552880389975:android:2bcb2c2d0e945ff2aec812",
+        "android_client_info": {
+          "package_name": "com.example.mapdesease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552880389975-vgc178g9nglarjoed8vstb9b6if4v86r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mapdesease",
+            "certificate_hash": "8128ada63762e822143a6f22c4c3d477400bfcc1"
+          }
+        },
+        {
+          "client_id": "552880389975-4pki7u3m0qavb7dknbp76hlvml877kaq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFpk2WIFzYUNtHF-p-3RLbGZ65tzV5ChA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552880389975-4pki7u3m0qavb7dknbp76hlvml877kaq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
