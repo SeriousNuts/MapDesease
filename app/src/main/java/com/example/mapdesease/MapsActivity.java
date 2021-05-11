@@ -59,7 +59,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                     Label label = document.toObject(Label.class);
 
                                     LatLng mark = new LatLng(label.latitude, label.longitude);
-                                    mMap.addMarker(new MarkerOptions().position(mark).title(label.symptoms));
+                                    mMap.addMarker(new MarkerOptions().position(mark).title(label.symptoms + "\n " + label.date));
 
 
                                 }
@@ -73,10 +73,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         }
     }
-   public void SetLabelsOnMap(Double latitude, Double longitude)
-   {
-
-   }
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
     }
